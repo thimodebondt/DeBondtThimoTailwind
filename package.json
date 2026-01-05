@@ -1,0 +1,8 @@
+{
+  "name": "lost-in-trainslation",
+  "version": "1.0.0",
+  "description": "Lost in Tra(i)nslation - Portfolio site",
+  "scripts": {
+    "build": "echo 'Static HTML site - no build required'"
+  }
+}
