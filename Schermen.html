@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Train Screens</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <a href="Hoofdpagina.html" class="underline">Menu</a>
+  <a href="Week7.html" class="underline">Week 7</a>
+</head>
+
+<body class="bg-gray-200 p-10 space-y-20 text-black">
+
+<!-- ================= OVERZICHT ================= -->
+<section class="bg-white border-4 border-black">
+
+  <!-- Header -->
+  <div class="grid grid-cols-5 text-2xl font-bold">
+    <div class="p-4 border-r-4 border-black">Train</div>
+    <div class="p-4 border-r-4 border-black">Platform</div>
+    <div class="p-4 border-r-4 border-black">Destination</div>
+    <div class="p-4 border-r-4 border-black text-center">Time</div>
+    <div class="p-4 text-center">Extra</div>
+  </div>
+
+  <!-- Green bar -->
+  <div class="h-6 bg-green-700 border-b-4 border-black"></div>
+
+  <!-- Rows -->
+  <div class="text-3xl">
+
+    <div class="grid grid-cols-5 items-center border-b-4 border-black">
+      <div class="p-4 border-r-4">IC2419</div>
+      <div class="p-4 border-r-4 font-bold text-center">22</div>
+      <div class="p-4 border-r-4 font-bold text-center">Ostend</div>
+      <div class="p-4 border-r-4 font-bold text-center">07:39</div>
+      <div class="p-4 text-red-600 font-bold text-center">+1’</div>
+    </div>
+
+    <div class="grid grid-cols-5 items-center border-b-4 border-black">
+      <div class="p-4 border-r-4">IC2392</div>
+      <div class="p-4 border-r-4 font-bold text-center">14</div>
+      <div class="p-4 border-r-4 font-bold text-center">Bruges</div>
+      <div class="p-4 border-r-4 font-bold text-center">08:01</div>
+      <div></div>
+    </div>
+
+    <div class="grid grid-cols-5 items-center border-b-4 border-black">
+      <div class="p-4 border-r-4">IC2594</div>
+      <div class="p-4 border-r-4 font-bold text-center">3</div>
+      <div class="p-4 border-r-4 font-bold text-center">Leuven</div>
+      <div class="p-4 border-r-4 font-bold text-center">08:05</div>
+      <div class="p-4 text-red-600 font-bold text-center">+3’</div>
+    </div>
+
+    <div class="grid grid-cols-5 items-center border-b-4 border-black">
+      <div class="p-4 border-r-4">S1 1778</div>
+      <div class="p-4 border-r-4 font-bold text-center">14</div>
+      <div class="p-4 border-r-4 font-bold text-center">Brussels-Nivelles</div>
+      <div class="p-4 border-r-4 font-bold text-center">08:17</div>
+      <div class="p-4 text-red-600 font-bold text-center">+5’</div>
+    </div>
+
+    <div class="grid grid-cols-5 items-center border-b-4 border-black">
+      <div class="p-4 border-r-4">IC0439</div>
+      <div class="p-4 border-r-4 font-bold text-center">4</div>
+      <div class="p-4 border-r-4 font-bold text-center">Namur</div>
+      <div class="p-4 border-r-4 font-bold text-center">08:31</div>
+      <div></div>
+    </div>
+
+    <div class="grid grid-cols-5 items-center border-b-4 border-black">
+      <div class="p-4 border-r-4">IC5393</div>
+      <div class="p-4 border-r-4 font-bold text-center">8</div>
+      <div class="p-4 border-r-4 font-bold text-center">Courtrai</div>
+      <div class="p-4 border-r-4 font-bold text-center">08:46</div>
+      <div></div>
+    </div>
+
+    <div class="grid grid-cols-5 items-center border-b-4 border-black">
+      <div class="p-4 border-r-4">IC0503</div>
+      <div class="p-4 border-r-4 font-bold text-center">23</div>
+      <div class="p-4 border-r-4 font-bold text-center">Mol</div>
+      <div class="p-4 border-r-4 font-bold text-center">09:05</div>
+      <div></div>
+    </div>
+
+    <div class="grid grid-cols-5 items-center">
+      <div class="p-4 border-r-4">IC5093</div>
+      <div class="p-4 border-r-4 font-bold text-center">10</div>
+      <div class="p-4 border-r-4 font-bold text-center">Charleroi-Central</div>
+      <div class="p-4 border-r-4 font-bold text-center">09:15</div>
+      <div class="p-4 text-red-600 font-bold text-center">+15’</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PERRON (1080 x 1920) ================= -->
+<section class="bg-white border-4 border-black w-[1080px] h-[1920px] mx-auto flex flex-col">
+
+  <!-- Top info -->
+  <div class="grid grid-cols-3 items-center px-12 py-10 font-bold">
+    <div class="text-[120px] leading-none">P<br>14</div>
+
+    <div class="text-center text-[96px] leading-tight">
+      Brussels<br>& Nivelles
+    </div>
+
+    <div class="text-right text-[64px] self-end">S1 1778</div>
+  </div>
+
+  <!-- Green bar -->
+  <div class="h-12 bg-green-700 border-t-4 border-b-4 border-black"></div>
+
+  <!-- Stops -->
+  <div class="flex-1 px-12 py-10 text-[56px] leading-tight space-y-2 overflow-hidden">
+    <p class="font-bold">Antwerp-Central</p>
+    <p>→ Antwerp-Berchem</p>
+    <p>→ Mortsel</p>
+    <p>→ Mortsel-Liersesteenweg</p>
+    <p>→ Hove</p>
+    <p>→ Kontich-Lint</p>
+    <p>→ Duffel</p>
+    <p>→ Sint-Katelijne-Waver</p>
+    <p>→ Mechelen-Nekkerspoel</p>
+    <p>→ Mechelen</p>
+    <p>→ Weerde</p>
+    <p>→ Eppegem</p>
+    <p>→ Vilvoorde</p>
+    <p>→ Buda</p>
+    <p>→ Schaarbeek</p>
+    <p>→ Brussel-Noord</p>
+    <p>→ Brussel-Congres</p>
+    <p>→ Brussel-Centraal</p>
+    <p>→ Brussel-Kapellekerk</p>
+    <p>→ Brussel-Zuid</p>
+
+    <p class="font-bold pt-6">Nivelles</p>
+  </div>
+
+  <!-- Delay -->
+  <div class="grid grid-cols-2 border-t-4 border-black text-red-600 font-bold text-[96px] px-12 py-10">
+    <div>Delay</div>
+    <div class="text-right">+5’</div>
+  </div>
+
+</section>
+
+
+<!-- ================= WAGONS ================= -->
+<section class="bg-white border-4 border-black">
+
+  <div class="grid grid-cols-3 items-center text-4xl font-bold p-6">
+    <div>S1 1778</div>
+    <div class="text-center">Brussels & Nivelles</div>
+    <div class="text-right">07:35</div>
+  </div>
+
+  <div class="h-6 bg-green-700 border-b-4 border-black"></div>
+
+  <div class="grid grid-cols-4 gap-6 p-8">
+    <div class="bg-gray-200 h-52 flex flex-col items-center justify-center text-4xl font-bold">1&nbsp;&nbsp;2<br>♿</div>
+    <div class="bg-gray-200 h-52 flex flex-col items-center justify-center text-4xl font-bold">2&nbsp;&nbsp;1<br>🚲<br>🚻</div>
+    <div class="bg-gray-200 h-52 flex flex-col items-center justify-center text-4xl font-bold">1&nbsp;&nbsp;2<br>♿</div>
+    <div class="bg-gray-200 h-52 flex flex-col items-center justify-center text-4xl font-bold">2&nbsp;&nbsp;1<br>🚲<br>🚻</div>
+  </div>
+
+  <div class="border-t-4 border-black p-6 text-2xl">
+    Antwerpen-Berchem, Mortsel, Mortsel-Liersesteenweg, Hove, Kontich-Lint, Duffel…
+  </div>
+
+  <div class="text-center text-red-600 font-bold text-5xl pb-6">
+    Delay&nbsp;&nbsp;+5’
+  </div>
+
+</section>
+
+</body>
+</html>
+
